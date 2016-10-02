@@ -1,0 +1,11 @@
+﻿#include @"DOG1\DOG1.ph"
+
+% privately used packages
+#include @"pfc\core.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"DOG1\DOG1.pro"
