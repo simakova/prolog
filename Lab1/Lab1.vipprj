@@ -58,10 +58,11 @@
     <item-map filename="$(ProDir)pfc\windowsApi\systemInformation_api\systemInformation_api.pack" />
     <item-map filename="$(ProDir)pfc\windowsApi\time_api\time_api.pack" />
     <item-map filename="$(ProDir)pfc\windowsApi\windowsAPI.pack" />
-    <item-map filename="DOG1\DOG1.pack" />
+    <item-map filename="dogs.txt" />
     <item-map filename="main.pack" />
     <item-map filename="main.version" />
     <item-map filename="ProjectIcon.ico" resource_id="application_icon" />
+    <item-map filename="Relatives.txt" />
   </item-set>
   <setting-set key="target">
     <setting-map target="Win32">

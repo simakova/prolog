@@ -1,8 +1,7 @@
 ﻿#include @"main.ph"
 
 % privately used packages
-
-#include @"pfc\application\Exe\exe.ph"
+#include @"pfc\fileSystem\fileSystem.ph"
 #include @"pfc\console\console.ph"
 #include @"pfc\core.ph"
 
@@ -11,5 +10,8 @@
 % private classes
 
 % implementations
+#include @"dog.pro"
+#include @"family.pro"
+#include @"dog1.pro"
 #include @"main.pro"
 

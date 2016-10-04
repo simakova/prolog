@@ -101,7 +101,5 @@ incl_file("$(ProDir)pfc\\windowsApi\\time_api\\time_api.ph",["$(ProDir)pfc\\core
 incl_file("$(ProDir)pfc\\windowsApi\\windowsAPI.pack",["$(ProDir)pfc\\core.ph","$(ProDir)pfc\\memory\\memory.ph","$(ProDir)pfc\\string\\string.ph","$(ProDir)pfc\\windowsApi\\windowsAPI.ph","$(ProDir)pfc\\windowsApi\\windowsAPI.pro"]).
 incl_file("$(ProDir)pfc\\windowsApi\\windowsAPI.ph",["$(ProDir)pfc\\core.ph","$(ProDir)pfc\\windowsApi\\windowsAPI.cl"]).
 incl_file("$(ProDir)pfc\\windowsApi\\WinErrors\\WinErrors.ph",["$(ProDir)pfc\\core.ph","$(ProDir)pfc\\windowsApi\\WinErrors\\WinErrors.cl"]).
-incl_file("DOG1\\DOG1.pack",["$(ProDir)pfc\\core.ph","DOG1\\DOG1.ph","DOG1\\DOG1.pro"]).
-incl_file("DOG1\\DOG1.ph",["$(ProDir)pfc\\core.ph","DOG1\\DOG1.cl"]).
-incl_file("main.pack",["$(ProDir)pfc\\application\\Exe\\exe.ph","$(ProDir)pfc\\console\\console.ph","$(ProDir)pfc\\core.ph","main.ph","main.pro"]).
-incl_file("main.ph",["$(ProDir)pfc\\core.ph","main.cl"]).
+incl_file("main.pack",["$(ProDir)pfc\\console\\console.ph","$(ProDir)pfc\\core.ph","$(ProDir)pfc\\fileSystem\\fileSystem.ph","dog.pro","dog1.pro","family.pro","main.ph","main.pro"]).
+incl_file("main.ph",["$(ProDir)pfc\\core.ph","dog.cl","dog1.cl","family.cl","main.cl"]).

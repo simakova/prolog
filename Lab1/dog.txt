@@ -1,0 +1,3 @@
+﻿clauses
+    dog("reks").
+    parent("jek","reks").
