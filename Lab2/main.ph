@@ -5,4 +5,5 @@
 % exported interfaces
 
 % exported classes
+#include @"ex_1.cl"
 #include @"main.cl"

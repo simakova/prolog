@@ -4,7 +4,7 @@ class facts - dogs
     dog: (string).
     parent: (string, string).
 class predicates
-    vnuk : (string, string) nondeterm anyflow.
+    vnuk : (string, string) determ nondeterm(o,o), nondeterm(i,i).
 clauses
     vnuk(X, Y) :- parent(Z,X), parent(Y,Z), dog(X).
 

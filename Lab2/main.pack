@@ -1,6 +1,7 @@
 ﻿#include @"main.ph"
 
 % privately used packages
+#include @"pfc\string\string.ph"
 #include @"pfc\console\console.ph"
 #include @"pfc\core.ph"
 
@@ -9,5 +10,6 @@
 % private classes
 
 % implementations
+#include @"ex_1.pro"
 #include @"main.pro"
 
